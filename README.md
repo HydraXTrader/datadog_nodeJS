@@ -1,6 +1,6 @@
 # Datadog on a nodeJS project
 
-This repository is a simple nodeJS project which will be use to test the integration of **Datadog** features.
+This repository is a simple nodeJS project which will be use to test the integration of **Datadog** features.  
 The goal is to understand **how to instrument** a JS code to collects **logs**, **metrics** and **traces** (APM) on a **nodeJS project** which use the following technologies:  
 * express
 * socket-io
@@ -18,9 +18,9 @@ This repository is composed of 3 main files:
 * `./src/server.js`
 This file enables to create an express server and to manage client requests
 * `./src/binance.js`
-This file is a binance object that enables to create REST request and open WebSocket conenction with Binance API
+This file is a binance object that enables to create `REST` request and open `WebSocket` connection with Binance API
 * `./src/hydraX.js`
-This file is a HydraX object which enables to correctly cdkjgwje + redis listener to create a binance object and to call methods of this object (subscribe to orderbook data) 
+This file is a HydraX object which enables to call methods from binance object and to subscribe to events of redis server 
 
 `client1.html` and `client2.html` are 2 files which enable to simulate a client requesting for orderbook on binance
 
