@@ -1,0 +1,21 @@
+<html>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:80');
+      
+       
+
+        socket.emit('main', {
+            event: 'subscribe-orderbook',
+            full_instrument: 'binance:ltc/btc'
+        })
+
+        socket.on('orderbook:binance:ltc/btc', data =>{
+            console.log(data);
+        })
+
+   
+
+
+     </script>
+</html>
