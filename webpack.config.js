@@ -3,7 +3,7 @@ var WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = {
   target: 'node',
-  entry: './server.js',
+  entry: './src/server.js',
   // node: {
   //   fs: 'empty',
   //   net:'empty',

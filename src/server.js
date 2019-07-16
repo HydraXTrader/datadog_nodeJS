@@ -11,6 +11,7 @@ var port = 80
 server.listen(port);
 
 var HydraXInstance = new HydraX()
+
 io.on('connection', client => {
 
     const user_id = uuidv4()
