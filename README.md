@@ -1,7 +1,7 @@
 # Datadog on a nodeJS project
 
 This repository is a simple nodeJS project which will be use to test the integration of **Datadog** features.  
-The goal is to understand **how to instrument** a JS code to collects **logs**, **metrics** and **traces** (APM) on a **nodeJS project** which use the following technologies:  
+The **goal** is to understand **how to instrument** a JS code to collects **logs**, **metrics** and **traces** (APM) on a **nodeJS project** which use the following technologies:  
 * express
 * socket-io
 * redis
