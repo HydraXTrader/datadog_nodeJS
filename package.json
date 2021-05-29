@@ -21,7 +21,7 @@
     "uws": "10.148.1",
     "webpack": "^4.35.3",
     "webpack-notifier": "^1.8.0",
-    "ws": "^7.1.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "webpack-cli": "^3.3.6"
